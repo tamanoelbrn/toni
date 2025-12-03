@@ -1,0 +1,196 @@
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portofolio SULTONI</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f8fb;
+  }
+
+  /* HEADER NAV */
+  .navbar {
+    background-color: #4edc7e;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navbar h2 {
+    margin: 0;
+    font-size: 18px;
+  }
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 14px;
+  }
+
+  /* PROFIL SECTION */
+  .profil {
+    background-color: #d9eaf7;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .profil img {
+    width: 100px;
+    border-radius: 10px;
+    background-color: #bcd9ea;
+  }
+  .profil-text h3 {
+    margin: 0;
+  }
+  .profil-text p {
+    font-size: 14px;
+    color: #333;
+    margin: 8px 0 12px;
+  }
+  .profil-text button {
+    background-color: #4edc7e;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  /* PENGALAMAN */
+  .section {
+    padding: 20px;
+  }
+  .section h3 {
+    margin-top: 0;
+    color: #4edc7e;
+  }
+  .pengalaman {
+    background-color: #eaf3fb;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  .pengalaman p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  .pengalaman b {
+    color: #4edc7e;
+  }
+
+  /* PROJECT */
+  .projects {
+    background-color: #d9eaf7;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  .project-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-around;
+  }
+  .box {
+    background-color: #eaf3fb;
+    width: 130px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  .box button {
+    background-color: #4edc7e;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+  }
+
+  /* FOOTER */
+  footer {
+    background-color: #4edc7e;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  /* RESPONSIVE */
+  @media (max-width: 600px) {
+    .profil {
+      flex-direction: column;
+      text-align: center;
+    }
+    .profil img {
+      width: 80px;
+    }
+  }
+</style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <div class="navbar">
+    <h2>cultoni</h2>
+    <div>
+      <a href="index.html" target="_self">Home</a>
+      <a href="tentang.html" target="_self">Tentang Saya</a>
+      <a href="portofolio.html" target="_self">Portofolio</a>
+    </div>
+  </div>
+
+  <!-- PROFIL -->
+  <div class="profil">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmRVQ1NUaKE1zyc514XEm86ye2t0z_FDo3GFDUyp_FDA&s=10" alt="Foto Profil">
+    <div class="profil-text">
+      <h3>sultoni</h3>
+      <p>
+        Saya adalah seorang programmer web yang bersekolah dismk yappenda dan saya ingin menjadi programmer.
+      </p>
+    </div>
+  </div>
+
+  <!-- PENGALAMAN -->
+  <div class="section">
+    <h3>Pengalaman Saya</h3>
+    <div class="pengalaman">
+      <p><b>1. Web Developer</b> – Smk Yappenda<br>
+      Bertanggung jawab merancang dan mengembangkan situs web menggunakan HTML dan CSS.</p>
+
+      <p><b>2. Senior Web Developer</b> - SMK Yappenda<br>
+      Memimpin teman teman saya dalam pembuatan web.</p>
+    </div>
+  </div>
+
+  <!-- PROJECT -->
+  <div class="section">
+    <h3>Project Saya</h3>
+    <div class="projects">
+      <div class="project-boxes">
+        <div class="box">
+          <p>Project 1</>
+        </div>
+        <div class="box">
+          <p>Project 2</p>
+        </div>
+        <div class="box">
+          <p>Project 3</p>
+        </div>
+        <div class="box">
+          <p>Project 4</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    Copyright © 2024 sultoni
+  </footer>
+
+</body>
+</html>
